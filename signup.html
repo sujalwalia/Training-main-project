@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SpeedyBites | Signup</title>
+  <link rel="stylesheet" href="style.css">
+<style>
+  body {
+            margin: 0;
+            padding: 0;
+            width: 100vw;
+            font-family: sans-serif;
+            background-image: url("table.png");
+            background-size: cover;
+            background-position: center;
+ }
+   .signform {
+            width: 90%;
+            max-width: 400px; /* Limit form width for smaller screens */
+            box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.3);
+            background: #fff;
+            padding: 20px;
+            margin: 10% auto; /* Center vertically */
+            text-align: center;
+        }
+        
+        .signform h2 {
+            color: #1c81db;
+            margin-bottom: 30px;
+            font-size: 40px;
+        }
+        
+        .input-box {
+            border-radius: 20px;
+            padding: 10px;
+            margin: 10px;
+            width: calc(100% - 20px); /* Adjust for padding */
+            border: 1px solid #999;
+            outline-width: none;
+        }
+        
+        button {
+            color: #fff;
+            width: 100%;
+            padding: 10px;
+            border-radius: 20px;
+            font-size: 15px;
+            margin: 10px 0;
+            border: none;
+            outline: none;
+            cursor: pointer;
+        }
+        
+        .new {
+            background-color: #1c8adb;
+        }
+        
+        .new2 {
+            background-color: #21afde;
+        }
+        
+        hr {
+            margin-top: 20px;
+            width: 80%;
+        }
+        
+        .or {
+            background: #fff;
+            width: 30px;
+            margin: -19px auto 10px;
+        }
+</style>
+</head>
+
+<body>
+  <header>
+    <nav>
+      <a href="index.html" class="logo">
+        <img src="img/logobg.png" alt="Food Delivery Logo">
+      </a>
+      <ul>
+        <li><a href="product.html"><i class="bi bi-basket2"></i><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-basket2" viewBox="0 0 16 16">
+          <path d="M4 10a1 1 0 0 1 2 0v2a1 1 0 0 1-2 0v-2zm3 0a1 1 0 0 1 2 0v2a1 1 0 0 1-2 0v-2zm3 0a1 1 0 1 1 2 0v2a1 1 0 0 1-2 0v-2z"/>
+          <path d="M5.757 1.071a.5.5 0 0 1 .172.686L3.383 6h9.234L10.07 1.757a.5.5 0 1 1 .858-.514L13.783 6H15.5a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-.623l-1.844 6.456a.75.75 0 0 1-.722.544H3.69a.75.75 0 0 1-.722-.544L1.123 8H.5a.5.5 0 0 1-.5-.5v-1A.5.5 0 0 1 .5 6h1.717L5.07 1.243a.5.5 0 0 1 .686-.172zM2.163 8l1.714 6h8.246l1.714-6H2.163z"/>
+        </svg> Items</a></li>
+        <li><a href="login.html"><i class="bi bi-door-open-fill"></i><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-door-open-fill" viewBox="0 0 16 16">
+        <path d="M1.5 15a.5.5 0 0 0 0 1h13a.5.5 0 0 0 0-1H13V2.5A1.5 1.5 0 0 0 11.5 1H11V.5a.5.5 0 0 0-.57-.495l-7 1A.5.5 0 0 0 3 1.5V15H1.5zM11 2h.5a.5.5 0 0 1 .5.5V15h-1V2zm-2.5 8c-.276 0-.5-.448-.5-1s.224-1 .5-1 .5.448.5 1-.224 1-.5 1z"/></svg> Login</a></li>
+        <li><a href="index.html"><i class="bi bi-person-fill"></i><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person-fill" viewBox="0 0 16 16">
+          <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3Zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6Z"/>
+        </svg> Profile</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <div class="signform">
+    <img src="user.png" style="width: 70px;">
+    <h2>Sign Up</h2>
+    <form>
+        <input type="text" class="input-box" placeholder="Enter Your Name">
+        <input type="email" class="input-box" placeholder="E-mail">
+        <input type="password" class="input-box" placeholder="Enter Your password">
+        <input type="password" class="input-box" placeholder="Confirm password">
+        <p><input type="checkbox"> I agree to the terms of services</p>
+        <button type="submit" class="new">Sign up</button>  
+        <hr>
+        <p class="or">OR</p>
+        <button type="button" class="new2"><a href="https://accounts.google.com/InteractiveLogin/signinchooser?continue=https%3A%2F%2Faccounts.google.com%2F&followup=https%3A%2F%2Faccounts.google.com%2F&passive=1209600&ifkv=AdF4I76jUdMUxTPs24d6iyt7SMlC9P5d97WOC_zRe1OoIwlR611k6fPjRaVcwJyiflBYQPbXkOAE&ddm=0&flowName=GlifWebSignIn&flowEntry=ServiceLogin" target="_blank" style="text-decoration: none; color: white;">Login With Google</a></button> 
+        <p>Already have an account? <a href="login.html">Sign In</a></p>
+    </form>
+</div>
+
+  <footer class="footer2">
+    <p class="copyright">@2024 All copyrights are Reserved to speedy Bites</p>
+  </footer>
+</body>
+
+</html>
